@@ -1,8 +1,6 @@
 import React, {Suspense} from 'react';
 import Loader  from 'react-loader-spinner'
 import './App.css';
-// import AboutUs from './components/AboutUs'
-// import Packages from './components/Packages'
 
 function App() {
   const AboutUs = React.lazy(() => import('./components/AboutUs'))
